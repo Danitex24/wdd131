@@ -108,7 +108,7 @@ img {
   width: 32px;
   height: 32px;
   margin-left: 10px;
-  background-image: url("../images/weather.png");
+  background-image: url("../images/weather.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
