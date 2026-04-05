@@ -28,7 +28,6 @@ body {
 }
 
 .site-footer,
-.site-header,
 .review-form,
 .confirmation-card {
     background-color: var(--card);
@@ -37,6 +36,9 @@ body {
 }
 
 .site-header {
+    background-color: var(--primary);
+    border-radius: 12px;
+    color: #fff;
     text-align: center;
     padding: 2rem 1rem;
     margin: 1rem 0 1.5rem;
@@ -46,12 +48,12 @@ body {
 .site-header h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 1.9rem;
-    color: var(--primary);
+    color: var(--card);
     margin-bottom: 0.5rem;
 }
 
 .site-header p {
-    color: #555;
+    color: #ffffff;
 }
 
 .review-form {
@@ -184,6 +186,8 @@ textarea:focus {
     padding: 1rem;
     text-align: center;
     font-size: 0.95rem;
+    background-color: var(--primary);
+    color: #fff;
 }
 
 .site-footer p:first-child {
@@ -191,7 +195,7 @@ textarea:focus {
 }
 
 #lastModified {
-    color: #666;
+    color: #ffffff;
 }
 
 @media (min-width: 700px) {
