@@ -1,0 +1,100 @@
+:root {
+    --primary: #c75b12;
+    --accent: #2f5233;
+    --bg: #fff4e6;
+    --text: #222;
+    --card: #ffffff;
+}
+
+
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    font-family: "Source Sans 3", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+/* container */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* header */
+.header {
+    background: var(--primary);
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* main flex layout */
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* card */
+.card {
+    background: var(--card);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 300px;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+} 
+/* full width card */
+.card.full {
+    flex: 1 1 100%;
+}
+
+/* headings */
+h2,
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: var(--accent);
+    margin-bottom: 10px;
+}
+
+/* list items */
+ul {
+    padding-left: 20px;
+}
+
+/* wireframes flex */
+.wireframes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* wireframe box */
+.wireframe {
+    flex: 1;
+    border: 2px dashed var(--accent);
+    padding: 15px;
+    background: #f9f9f9;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 0.9rem;
+}
